@@ -29,7 +29,7 @@ public class dioRank {
             nivel = "Imortal";
         }
 
-        System.out.println("O Herói tem um saldo de " + saldo + " e esta no nivel " + nivel);
+        System.out.println("O Heroi tem um saldo de " + saldo + " e esta no nivel " + nivel);
         scanner.close();
     }
 
