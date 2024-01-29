@@ -60,20 +60,9 @@ img.lado2 {
     margin-bottom: 5px;
 }
 
-div {
+div.div-item {
     display: inline-block;
-}
-
-div.div-item1 {
-    width: 50%;
-    box-sizing: border-box;
-    padding: 5px;
-}
-
-div.div-item2 {
-    width: 50%;
-    box-sizing: border-box;
-    padding: 5px;
+    justify-content: space-evenly;
 }
 
 a {
