@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap');
 
 * {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 body {
@@ -31,6 +31,7 @@ h1 {
     font-family: 'Muli', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
+    display: inline-block;
 }
 
 h2 {
@@ -43,38 +44,18 @@ h2 {
 
 p {
     font-family: 'Muli', sans-serif;
-    font-weight: normal
-}
-
-div.title-image-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-div.title-image-wrapper h1 {
-    margin-right: 10px;
+    font-weight: normal;
 }
 
 img.lado1 {
-    max-width: 32px;
+    max-width: 50px;
     height: auto;
-    margin-left: 5px;
+    margin-left: 10px;
     display: inline-block;
     vertical-align: middle;
 }
 
-div.content-wrapper {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-div.content-wrapper h2, div.content-wrapper p {
-    flex: 1;
-}
-
-div.content-wrapper img.lado {
+img.lado {
     float: right;
     max-width: 60px;
     height: auto;
