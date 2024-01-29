@@ -60,25 +60,20 @@ img.lado2 {
     margin-bottom: 5px;
 }
 
-div.div-item {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+div {
+    display: inline-block;
+}
+
+div.div-item1 {
     width: 50%;
     box-sizing: border-box;
     padding: 5px;
-    margin-bottom: 10px;
 }
 
-div.div-item img {
-    max-width: 60px;
-    height: auto;
-    margin-right: 10px;
-}
-
-div.div-item p {
-    margin: 0;
-    font-size: 16px;
+div.div-item2 {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 5px;
 }
 
 a {
