@@ -4,27 +4,36 @@
 }
 
 body {
-    background-color: white;
+    background-color: #F5DFCF;
     margin: 0;
 }
 
 main {
-    background-color:#F5DFCF;
-    width: 1350px;
-    margin: 0;
+    background-color:white;
+    width: 700px;
     padding: 10px;
     box-shadow: 3px 3px 5px black;
     color: #69412E;
 }
 
+title {
+    font-size: 3em;
+    color: #69412E;
+    font-weight: bold;
+}
+
 h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     color: #69412E;
 }
 
 h2 {
     font-size: 1.5em;
     color: #69412E;
+}
+
+img.lado {
+    float: right;
 }
 
 a {
