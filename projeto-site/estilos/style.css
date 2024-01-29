@@ -57,9 +57,11 @@ div.title-image-wrapper h1 {
 }
 
 img.lado1 {
-    max-width: 35px;
+    max-width: 32px;
     height: auto;
-    margin-right: 10px;
+    margin-left: 5px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 div.content-wrapper {
@@ -73,9 +75,10 @@ div.content-wrapper h2, div.content-wrapper p {
 }
 
 div.content-wrapper img.lado {
+    float: right;
     max-width: 60px;
     height: auto;
-    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 a {
