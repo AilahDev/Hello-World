@@ -23,6 +23,7 @@ title {
     font-size: 3em;
     color: #69412E;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 h1 {
@@ -30,6 +31,7 @@ h1 {
     color: #69412E;
     font-family: 'Muli', sans-serif;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -37,14 +39,7 @@ h2 {
     color: #69412E;
     font-family: 'Muli', sans-serif;
     font-weight: bold;
-}
-
-img.lado {
-    float: right;
-    max-width: 60px;
-    height: auto;
-    font-family: 'Muli', sans-serif;
-    font-weight: normal;
+    text-transform: uppercase;
 }
 
 div.title-image-wrapper {
