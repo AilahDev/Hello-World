@@ -16,3 +16,19 @@ main {
     box-shadow: 3px 3px 5px black;
     color: #69412E;
 }
+
+h1 {
+    font-size: 2em;
+    color: #69412E;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #69412E;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #69412E;
+}
