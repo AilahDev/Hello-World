@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap');
 
-* {
-    font-size: 16px;
-}
-
 body {
     background-color: #F5DFCF;
     margin: 0;
@@ -18,28 +14,21 @@ main {
     color: #69412E;
 }
 
-title {
-    font-size: 3em;
-    color: #69412E;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
 h1 {
-    font-size: 1.5em;
+    font-size: 2.5em;
     color: #69412E;
     font-family: 'Muli', sans-serif;
-    font-weight: bold;
+    font-weight: 800;
     text-transform: uppercase;
     display: inline-block;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #69412E;
     font-family: 'Muli', sans-serif;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 p {
@@ -64,10 +53,17 @@ img.lado1 {
 }
 
 img.lado2 {
-    float: left;
-    max-width: 60px;
+    width: 100%;
     height: auto;
-    margin-bottom: 10px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+div.div-item {
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 5px;
 }
 
 a {
