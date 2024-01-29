@@ -14,27 +14,28 @@ main {
     color: #69412E;
 }
 
-h1 {
+h1, h2 {
+    margin: 0;
     font-size: 2em;
     color: #69412E;
     font-family: 'Muli', sans-serif;
     font-weight: 800;
+}
+
+h1 {
     text-transform: uppercase;
 }
 
 h2 {
+    text-transform: capitalize;
+    margin-left: 5px;
+}
+
+h3 {
     font-size: 1.2em;
     color: #69412E;
     font-family: 'Muli', sans-serif;
     font-weight: bold;
-    text-transform: capitalize;
-}
-
-h3 {
-    font-size: 2em;
-    color: #69412E;
-    font-family: 'Muli', sans-serif;
-    font-weight: 800;
     text-transform: capitalize;
 }
 
@@ -68,24 +69,7 @@ img.lado2 {
 }
 
 div.div-item {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 50%;
-    box-sizing: border-box;
-    padding: 5px;
-    margin-bottom: 10px;
-}
-
-div.div-item img {
-    max-width: 60px; 
-    height: auto;
-    margin-right: 10px;
-}
-
-div.div-item p {
-    margin: 0;
-    font-size: 16px;
+    display: inline-block;
 }
 
 a {
