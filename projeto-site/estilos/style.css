@@ -6,7 +6,7 @@ body {
 }
 
 main {
-    background-color:white;
+    background-color: white;
     width: 700px;
     margin: auto;
     padding: 10px;
@@ -14,7 +14,14 @@ main {
     color: #69412E;
 }
 
+.title-image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 h1, h2 {
+    display: inline;
     margin: 0;
     font-size: 2em;
     color: #69412E;
@@ -49,27 +56,26 @@ img.lado0 {
     max-width: 50px;
     height: auto;
     margin-left: 10px;
-    display: inline-block;
-    vertical-align: middle;
 }
 
 img.lado1 {
     float: right;
     max-width: 60px;
     height: auto;
-    margin-bottom: 10px;
+}
+
+.items-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.div-item1, .div-item2 {
+    margin-right: 20px;
 }
 
 img.lado2 {
-    float: left;
     max-width: 60px;
     height: auto;
-    display: block;
-    margin-bottom: 5px;
-}
-
-div.div-item {
-    display: inline-block;
 }
 
 a {
