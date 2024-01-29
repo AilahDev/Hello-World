@@ -5,12 +5,14 @@
 
 body {
     background-color: white;
+    margin: 0;
+    padding: 0;
 }
 
 main {
     background-color:#687A99;
-    width: 600px;
-    margin: auto;
+    width: 100px;
+    margin: 0;
     padding: 10px;
-    box-shadow: 3px 3px 5px white;
+    box-shadow: 3px 3px 5px black;
 }
