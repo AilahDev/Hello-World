@@ -53,6 +53,7 @@ img.lado1 {
 }
 
 img.lado2 {
+    float: left;
     max-width: 60px;
     height: auto;
     display: block;
@@ -60,10 +61,24 @@ img.lado2 {
 }
 
 div.div-item {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     width: 50%;
     box-sizing: border-box;
     padding: 5px;
+    margin-bottom: 10px;
+}
+
+div.div-item img {
+    max-width: 60px;
+    height: auto;
+    margin-right: 10px;
+}
+
+div.div-item p {
+    margin: 0;
+    font-size: 16px;
 }
 
 a {
