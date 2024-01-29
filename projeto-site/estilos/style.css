@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap');
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -11,6 +13,7 @@ body {
 main {
     background-color:white;
     width: 700px;
+    margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px black;
     color: #69412E;
@@ -25,17 +28,39 @@ title {
 h1 {
     font-size: 1.5em;
     color: #69412E;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
 }
 
 h2 {
     font-size: 1.5em;
     color: #69412E;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
 }
 
 img.lado {
     float: right;
     max-width: 60px;
     height: auto;
+    font-family: 'Muli', sans-serif;
+    font-weight: normal;
+}
+
+div.title-image-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+div.title-image-wrapper h1 {
+    flex: 1;
+    margin-right: 10px; /* ajuste conforme necessário */
+}
+
+img.lado {
+    max-width: 60px; /* ou o tamanho que preferir */
+    height: auto;
+    margin-left: 10px; /* ajuste conforme necessário */
 }
 
 a {
