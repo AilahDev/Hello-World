@@ -42,26 +42,39 @@ h2 {
     text-transform: uppercase;
 }
 
-div.title-image-wrapper {
-    flex: 1;
-    margin-right: 0;
+p {
+    font-family: 'Muli', sans-serif;
+    font-weight: normal
 }
 
-div.title-image-wrapper h1 {
-    flex: 1;
+div.title-image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+div.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+div.content-wrapper h2, div.content-wrapper img {
     margin-right: 10px;
+}
+
+div.content-wrapper img {
+    align-self: flex-start;
 }
 
 img.lado1 {
     max-width: 60px;
     height: auto;
-    margin-left: 0;
+    margin-right: 10px;
 }
 
 img.lado {
     max-width: 60px;
     height: auto;
-    margin-left: 10px;
 }
 
 a {
