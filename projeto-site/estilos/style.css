@@ -11,7 +11,7 @@ body {
 
 main {
     background-color:white;
-    width: 700px;
+    width: 1000px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px black;
@@ -26,7 +26,7 @@ title {
 }
 
 h1 {
-    font-size: 1.5em;
+    font-size: 1em;
     color: #69412E;
     font-family: 'Muli', sans-serif;
     font-weight: bold;
@@ -35,7 +35,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1em;
     color: #69412E;
     font-family: 'Muli', sans-serif;
     font-weight: bold;
@@ -43,6 +43,7 @@ h2 {
 }
 
 p {
+    font-size: 0.5em;
     font-family: 'Muli', sans-serif;
     font-weight: normal;
 }
