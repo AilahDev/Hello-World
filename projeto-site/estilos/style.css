@@ -48,19 +48,25 @@ img.lado {
 }
 
 div.title-image-wrapper {
-    display: flex;
-    align-items: center;
+    flex: 1;
+    margin-right: 0;
 }
 
 div.title-image-wrapper h1 {
     flex: 1;
-    margin-right: 10px; /* ajuste conforme necessário */
+    margin-right: 10px;
+}
+
+img.lado1 {
+    max-width: 60px;
+    height: auto;
+    margin-left: 0;
 }
 
 img.lado {
-    max-width: 60px; /* ou o tamanho que preferir */
+    max-width: 60px;
     height: auto;
-    margin-left: 10px; /* ajuste conforme necessário */
+    margin-left: 10px;
 }
 
 a {
