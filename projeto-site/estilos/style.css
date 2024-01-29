@@ -48,7 +48,7 @@ p {
     font-weight: normal;
 }
 
-img.lado1 {
+img.lado0 {
     max-width: 50px;
     height: auto;
     margin-left: 10px;
@@ -56,8 +56,15 @@ img.lado1 {
     vertical-align: middle;
 }
 
-img.lado {
+img.lado1 {
     float: right;
+    max-width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+img.lado2 {
+    float: left;
     max-width: 60px;
     height: auto;
     margin-bottom: 10px;
