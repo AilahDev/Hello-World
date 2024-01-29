@@ -53,7 +53,6 @@ img.lado1 {
 }
 
 img.lado2 {
-    float: left;
     max-width: 60px;
     height: auto;
     display: block;
